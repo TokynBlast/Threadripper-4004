@@ -1,7 +1,7 @@
 ; ti404, runs on i4004 and a thread ripper :D
 
 
-db 0xEB, 0xEB ; NOP on i4004 and jmp on threadripper.
+db 0xEB, 0xEB ; NOP NOP on i4004 and JMP 235 on threadripper.
 
 
 ; somehow, this needs to be forced 235 bytes away from db
